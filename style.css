@@ -1,0 +1,44 @@
+:root {
+    --body-color: #03A583;
+    --primary-color: #f46200;
+    --headding-color: #222222;
+    --section-bg: #F8F8F8;
+    --textColor: #fff;
+}
+
+body {
+    background: var(--body-color);
+    margin: 0px;
+}
+
+/* Top Section */
+.topHead {
+    background: var(--section-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:9px 25px    ;
+
+}
+
+.topHead a {
+    text-decoration: none;
+    padding: 9px;
+
+
+}
+
+.topHead button {
+    background-color: var(--primary-color);
+    border: 0px;
+    padding: 9px;
+    width: 120px;
+    border-radius: 5px;
+    color: var(--textColor);
+    cursor: pointer;
+}
+.topHead button:hover{
+    background-color: var(--textColor);
+    color: var(--primary-color);
+}
