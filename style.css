@@ -37,8 +37,33 @@ body {
     border-radius: 5px;
     color: var(--textColor);
     cursor: pointer;
+    font-size: 1rem;
 }
 .topHead button:hover{
     background-color: var(--textColor);
     color: var(--primary-color);
+}
+/* Navbar */
+.topNav{
+    /* background-color: var(--section-bg); */
+    text-align: center; 
+    margin-top:1.2rem;
+}
+.topNav a{
+    color: var(--section-bg);
+    text-decoration: none;
+    padding: 20px;
+    cursor: pointer;
+}
+.topNav>a:hover{
+    color: var(--primary-color);
+    background-color: #22222210;
+}
+/* Main Section */
+.m_Section{
+    height: 80vh;
+    background-image: url(assets/surgi_bg.jpg);  
+    background-size: cover;
+    background-color: var(--body-color);
+    color: var(--section-bg);
 }
