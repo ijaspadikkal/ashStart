@@ -6,14 +6,19 @@
     --textColor: #fff;
 }
 
-body {
-    background: var(--body-color);
+body { 
     margin: 0px;
 }
-
+/* Universal Tag */
+a {
+    text-decoration: none;
+}
+h1{
+    margin: 0px;
+}
 /* Top Section */
 .topHead {
-    background: var(--section-bg);
+    background: var(--body-color);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,14 +27,31 @@ body {
 
 }
 
-.topHead a {
-    text-decoration: none;
-    padding: 9px;
-
-
+.topHead a { 
+    padding: 9px; 
 }
 
-.topHead button {
+
+/* Navbar */
+
+.topNav{
+    display: flex; 
+    align-items: center;
+    text-align: center; 
+    justify-content: space-around;
+    /* margin-top:1.2rem; */
+    background-color: var(--section-bg);
+}
+.navBarS a{
+    color: var(--section-bg); 
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.navBarS>a:hover{
+    color: var(--primary-color);
+    background-color: #22222210;
+}
+.topNav button {
     background-color: var(--primary-color);
     border: 0px;
     padding: 9px;
@@ -39,26 +61,19 @@ body {
     cursor: pointer;
     font-size: 1rem;
 }
-.topHead button:hover{
+.topNav button:hover{
     background-color: var(--textColor);
     color: var(--primary-color);
 }
-/* Navbar */
-.topNav{
-    /* background-color: var(--section-bg); */
-    text-align: center; 
-    margin-top:1.2rem;
+
+.topNav .brand_logo h1{
+    color: var(--textColor);
+    font-size: 2rem; 
 }
-.topNav a{
-    color: var(--section-bg);
-    text-decoration: none;
-    padding: 20px;
-    cursor: pointer;
-}
-.topNav>a:hover{
-    color: var(--primary-color);
-    background-color: #22222210;
-}
+
+
+
+
 /* Main Section */
 .m_Section{
     height: 80vh;
@@ -66,4 +81,8 @@ body {
     background-size: cover;
     background-color: var(--body-color);
     color: var(--section-bg);
+}
+
+.brandShowCase{
+    display: flex;
 }
