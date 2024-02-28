@@ -3,19 +3,28 @@
     --primary-color: #f46200;
     --headding-color: #222222;
     --section-bg: #F8F8F8;
-    --textColor: #fff;
+    --textColorLight: #fff;
+    --textColorDark: #000;
+    --tDark: #1A4A5E;
+    --tRed: #F30309;
+    --tGreen: #04A584;
+
 }
 
-body { 
+body {
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /* Universal Tag */
 a {
     text-decoration: none;
 }
-h1{
+
+h1 {
     margin: 0px;
 }
+
 /* Top Section */
 .topHead {
     background: var(--body-color);
@@ -23,66 +32,86 @@ h1{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    padding:9px 25px    ;
+    padding: 9px 25px;
 
 }
 
-.topHead a { 
-    padding: 9px; 
+.topHead a {
+    padding: 9px;
+    color: var(--textColorLight);
 }
 
 
 /* Navbar */
 
-.topNav{
-    display: flex; 
+.topNav {
+    display: flex;
     align-items: center;
-    text-align: center; 
+    text-align: center;
     justify-content: space-around;
-    /* margin-top:1.2rem; */
-    background-color: var(--section-bg);
+    background-color: #fff;
+    padding: 1.2rem;
 }
-.navBarS a{
-    color: var(--section-bg); 
-    padding: 0px 20px;
+
+.navBarS a {
+    color: var(--tDark);
+    padding: 1.7rem 20px;
     cursor: pointer;
 }
-.navBarS>a:hover{
-    color: var(--primary-color);
+
+.navBarS>a:hover {
+    color: var(--tGreen);
     background-color: #22222210;
 }
+
 .topNav button {
-    background-color: var(--primary-color);
+    background-color: var(--tGreen);
     border: 0px;
     padding: 9px;
     width: 120px;
     border-radius: 5px;
-    color: var(--textColor);
+    color: var(--textColorLight);
     cursor: pointer;
     font-size: 1rem;
 }
-.topNav button:hover{
-    background-color: var(--textColor);
-    color: var(--primary-color);
+
+.topNav button:hover {
+    background-color: var(--textColorLight);
+    color: var(--tGreen);
 }
 
-.topNav .brand_logo h1{
-    color: var(--textColor);
-    font-size: 2rem; 
+.topNav .brand_logo h1 {
+    color: var(--body-color);
+    font-size: 2rem;
+}
+
+.logoSecondText {
+    color: var(--tRed);
 }
 
 
 
 
 /* Main Section */
-.m_Section{
+.m_Section {
     height: 80vh;
-    background-image: url(assets/surgi_bg.jpg);  
+    background-image: url(assets/surgi_bg.jpg);
+    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(/assets/surgi_bg.jpg);
     background-size: cover;
+    background-blend-mode: multiply;
     background-color: var(--body-color);
     color: var(--section-bg);
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
 }
 
-.brandShowCase{
+.m_Section>div {
+    width: 800px;
+    font-size: 3rem;
+}
+
+.brandShowCase {
     display: flex;
 }
