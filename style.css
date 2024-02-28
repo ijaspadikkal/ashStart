@@ -14,15 +14,21 @@
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
 }
 
 /* Universal Tag */
 a {
     text-decoration: none;
+    margin: 0px;
 }
 
-h1 {
+h1,
+h4,h2 {
     margin: 0px;
+}
+p{
+    line-height: 1.6rem; 
 }
 
 /* Top Section */
@@ -112,6 +118,31 @@ h1 {
     font-size: 3rem;
 }
 
+.m_Section h4 {
+    font-weight: 400;
+}
+
+/* Every Section Code */
+.subMainSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--section-bg);
+    padding: 3rem 5rem;
+}
+
+.subMainSection:nth-child(even) {
+    background-color: var(--textColorLight);
+}
+
 .brandShowCase {
     display: flex;
 }
+
+
+/* <!-- Brand Higlight --> */
+.subMainSection h2{
+    font-size: 2.1rem; 
+    padding: 10px;
+}
+/* <!-- Brand Higlight --> */
