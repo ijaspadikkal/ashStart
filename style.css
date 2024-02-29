@@ -19,7 +19,7 @@ body {
 
 /* Universal Tag */
 a {
-    text-decoration: none;
+    text-decoration:none !important;
     margin: 0px;
 }
 
@@ -138,11 +138,47 @@ p{
 .brandShowCase {
     display: flex;
 }
-
-
-/* <!-- Brand Higlight --> */
 .subMainSection h2{
     font-size: 2.1rem; 
     padding: 10px;
 }
+.subMainSection p{
+    margin: 0px;
+}
 /* <!-- Brand Higlight --> */
+.brandItem img{
+    width: 15rem;
+    background-color:#03A583 ;
+    margin: 2.5rem 1.2rem;
+}
+/* Importence */
+.brandImportence {
+    width: 15rem;
+    margin: 1rem 1rem;  
+}
+.brandImportence img {
+    width: 8rem;
+    margin-bottom: 1.2rem;
+}
+/* Client Review */
+.brandReview{
+    width: 20rem;
+    margin: 1rem;
+}
+.brandReview img{
+    width: 10rem;
+}
+ 
+/* Footer */
+
+footer ul{
+    list-style: none; 
+    text-align: left;
+}
+.footerAlign{
+    justify-content: space-around;
+}
+.footerAlign>div{
+    width: 400px;
+    text-align: center;
+}
