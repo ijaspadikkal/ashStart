@@ -42,37 +42,28 @@ p {
     align-items: center;
     flex-wrap: wrap;
     padding: 9px 25px;
-
 }
-
 .topHead a {
     padding: 9px;
     color: var(--textColorLight);
 }
-
-
 /* Navbar */
-
 .topNav {
     display: flex;
     align-items: center;
     text-align: center;
     justify-content: space-around;
-    background-color: #fff;
-    padding: 1.2rem;
+    background-color: #fff; 
 }
-
 .navBarS a {
     color: var(--tDark);
-    padding: 1.7rem 20px;
+    padding: 1.6rem 20px;
     cursor: pointer;
 }
-
 .navBarS>a:hover {
     color: var(--tGreen);
     background-color: #22222210;
 }
-
 button {
     background-color: var(--tGreen);
     border: 0px;
@@ -83,24 +74,22 @@ button {
     cursor: pointer;
     font-size: 1rem;
 }
-
 button:hover {
     background-color: var(--textColorLight);
     color: var(--tGreen);
 }
-
+.brand_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .topNav .brand_logo h2 {
     color: var(--body-color);
     font-size: 2.3rem;
 }
-
 .logoSecondText {
     color: var(--tRed);
 }
-
-
-
-
 /* Main Section */
 .m_Section {
     height: 80vh;
@@ -193,14 +182,11 @@ button:hover {
 .fa-noN {
     color: #f0e7b5;
 }
-
 /* Footer */
-
 footer ul {
     list-style: none;
     text-align: left;
 }
-
 footer li,
 a {
     color: var(--section-bg);
@@ -210,17 +196,83 @@ footer li {
     padding: .3rem 0px;
     line-height: 1.5rem;
 }
-
 .footerAlign {
     justify-content: space-around;
 
 }
-
 .footerAlign>div {
     width: 400px;
     text-align: center;
 }
-
 .footerBg {
-    background-color: #014A44;
+    background-color: #014A44 !important;
+}
+
+
+/* About */
+.abtSecWidth{
+    padding: 3rem;
+    padding-top: 0px;
+}
+.aboutSec{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--section-bg);
+}
+.aboutSec >div{
+    width: 50%;
+    margin: 2rem;
+}
+.aboutSec img{
+    width: 100%;
+}
+.aboutSec h2{
+    font-size: 2.2rem; 
+}
+.aboutSec p{
+    line-height: 1.8rem;
+    text-indent: 2rem;
+}
+/* Premarajan */
+.premrajan{
+    background-color: var(--textColorLight);
+}
+/* team */
+.team p{
+    margin: 0px; 
+}
+.team h2{
+    font-size: 3rem;
+}
+.team{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+} 
+.jkl{
+   display: flex;
+   flex-direction: row; 
+  justify-content: center;
+   width: 100wh;  
+}
+.cardBg{ 
+    padding: 50px;
+    width: 300px;  
+    margin: 0px 1rem;
+    margin-bottom: 6rem;
+     
+}
+.profileCanvas{ 
+    height: 300px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;  
+   
+} 
+.card-body{ 
+    height: 160px; 
+    background-color: var(--tGreen);
+    color: var(--textColorLight);
+    padding: 1rem;
+
 }
