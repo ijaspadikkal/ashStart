@@ -19,16 +19,19 @@ body {
 
 /* Universal Tag */
 a {
-    text-decoration:none !important;
+    text-decoration: none !important;
     margin: 0px;
 }
 
 h1,
-h4,h2 {
+h4,
+h2 {
     margin: 0px;
 }
-p{
-    line-height: 1.6rem; 
+
+p {
+    font-size: 18px;
+    line-height: 2rem;
 }
 
 /* Top Section */
@@ -70,7 +73,7 @@ p{
     background-color: #22222210;
 }
 
-.topNav button {
+button {
     background-color: var(--tGreen);
     border: 0px;
     padding: 9px;
@@ -81,14 +84,14 @@ p{
     font-size: 1rem;
 }
 
-.topNav button:hover {
+button:hover {
     background-color: var(--textColorLight);
     color: var(--tGreen);
 }
 
-.topNav .brand_logo h1 {
+.topNav .brand_logo h2 {
     color: var(--body-color);
-    font-size: 2rem;
+    font-size: 2.3rem;
 }
 
 .logoSecondText {
@@ -101,8 +104,8 @@ p{
 /* Main Section */
 .m_Section {
     height: 80vh;
-    background-image: url(assets/surgi_bg.jpg);
-    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(/assets/surgi_bg.jpg);
+    background-image: url(./assets/surgi_bg.jpg);
+    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.jpg);
     background-size: cover;
     background-blend-mode: multiply;
     background-color: var(--body-color);
@@ -138,47 +141,86 @@ p{
 .brandShowCase {
     display: flex;
 }
-.subMainSection h2{
-    font-size: 2.1rem; 
+
+.subMainSection h2 {
+    font-size: 2.1rem;
     padding: 10px;
 }
-.subMainSection p{
+
+.subMainSection p {
     margin: 0px;
 }
+
 /* <!-- Brand Higlight --> */
-.brandItem img{
+.brandItem img {
     width: 15rem;
-    background-color:#03A583 ;
+    background-color: #03A583;
     margin: 2.5rem 1.2rem;
 }
+
 /* Importence */
 .brandImportence {
     width: 15rem;
-    margin: 1rem 1rem;  
+    margin: 1rem 1rem;
 }
+
 .brandImportence img {
     width: 8rem;
     margin-bottom: 1.2rem;
 }
+
 /* Client Review */
-.brandReview{
+.brandReview {
     width: 20rem;
     margin: 1rem;
 }
-.brandReview img{
+
+.brandReview img {
     width: 10rem;
 }
- 
+
+.client_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+}
+
+.rateStar {
+    color: rgb(234, 172, 13);
+}
+
+.fa-noN {
+    color: #f0e7b5;
+}
+
 /* Footer */
 
-footer ul{
-    list-style: none; 
+footer ul {
+    list-style: none;
     text-align: left;
 }
-.footerAlign{
-    justify-content: space-around;
+
+footer li,
+a {
+    color: var(--section-bg);
 }
-.footerAlign>div{
+
+footer li {
+    padding: .3rem 0px;
+    line-height: 1.5rem;
+}
+
+.footerAlign {
+    justify-content: space-around;
+
+}
+
+.footerAlign>div {
     width: 400px;
     text-align: center;
+}
+
+.footerBg {
+    background-color: #014A44;
 }
