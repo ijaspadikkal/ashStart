@@ -99,8 +99,7 @@ button:hover {
     background-blend-mode: multiply;
     background-color: var(--body-color);
     color: var(--section-bg);
-    display: flex;
-    /* align-items: center; */
+    display: flex; 
     justify-content: center;
     align-items: center;
 }
