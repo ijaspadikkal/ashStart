@@ -298,3 +298,57 @@ form>  button {
     width: auto;
     padding: 15px;
 }  
+
+/* Product */
+.p_Section{
+    height: 50vh;
+    background-image: url(./assets/surgi_bg.jpg);
+    background-size: cover;  
+    display: flex;  
+    align-items: end;
+    justify-content: center;
+}
+.p_Section > div{  
+    color: var(--tGreen);
+    text-align: left;  
+    position: relative;
+    top: 3rem;
+}
+.p_Section h1{
+    font-size: 3rem;
+}
+.p_Section span{
+    font-size: 2rem;
+    margin: 0px;
+}
+/* p-Product List */
+.p-card-sec{
+    margin-top: 5rem;
+    display: flex; 
+    padding: 0px 8rem;
+    
+}
+.p-card{
+    width: 30%;
+    margin: 5px;
+    border: 1px solid blueviolet; 
+     
+    text-align: center;
+}
+
+.p-card > div{
+    border-radius: .5rem;
+    background-color: var(--tGreen);
+    padding: .8rem .5rem;
+}
+.p-card .p-img{
+    height: 160px;
+    text-align: center;
+}
+.p-card img{
+    width: 100%; 
+    border-radius: .5rem;  
+}
+.p-card p{
+    font-size: 1rem;
+}
