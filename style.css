@@ -275,3 +275,26 @@ footer li {
     padding: 1rem;
 
 }
+/* COntact */
+input,
+textarea {
+    padding: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin: 10px 0px;
+    border: 1px solid #04A584;
+}
+
+textarea {
+    padding: 10px 10px; 
+}
+
+textarea::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+} 
+form>  button {
+    width: auto;
+    padding: 15px;
+}  
