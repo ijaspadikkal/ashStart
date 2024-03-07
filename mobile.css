@@ -3,18 +3,22 @@
 
 
 @media (max-width: 480px) {
-
-    /* Test Code */
-    .brandShowCase { 
-        
-        /* overflow: auto; */
+    
+ 
+    
+    
+    /* Every Section Code */
+    p{
+        font-size: 1rem;
     }
-
-    h1 {
-        color: blueviolet;
+    h2 {
+        font-size: 2rem;
+        padding: 10px;
     }
-
-    /* content Width */
+    .subMainSection {  
+        padding: 3rem 1rem;
+        text-align: center;
+    }
     .scro {
         width: 375px;
         overflow: auto;
@@ -50,7 +54,12 @@
         margin-right: 1rem;
     }
 
-    .logoSecondText {
-        color: var(--tRed);
+    /* Main Section */
+    .m_Section h1{
+        font-size: 2.8rem;
     }
+    .m_Section h4{
+        font-size: 1.8rem;
+    }
+     
 }
