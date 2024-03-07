@@ -1,0 +1,50 @@
+@import url(style.css);
+
+
+
+@media (max-width: 480px) {
+
+    /* Test Code */
+    .brandShowCase {
+        flex-wrap: wrap;
+    }
+
+    h1 {
+        color: blueviolet;
+    }
+
+
+
+    /* t.topHead */
+    .topHead div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .topHead a {
+        padding: 0px
+    }
+
+
+
+    /* Navbar */
+    .topNav { 
+        flex-wrap: wrap;
+    }
+
+    .navBarS a { 
+        padding: 1px 20px;
+    }  
+
+    .topNav .brand_logo h2 {
+        color: var(--body-color);
+        font-size: 2.3rem;
+    }
+    .brand_logo img{
+        width: 50px;
+        margin-right: 1rem;
+    }
+    .logoSecondText {
+        color: var(--tRed);
+    }
+}
