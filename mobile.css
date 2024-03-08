@@ -4,7 +4,7 @@
 
 @media (max-width: 480px) {
     
- 
+    
     
     
     /* Every Section Code */
@@ -23,7 +23,10 @@
         width: 375px;
         overflow: auto;
     }
- 
+    .scro p {
+        line-height: 19px;
+        font-size: 13px;
+    }
 
     /* t.topHead */
     .topHead div {
@@ -53,13 +56,21 @@
         width: 50px;
         margin-right: 1rem;
     }
+    /* Nav Bar menu */
+    .navBarS{
+        display: none;
+    }
 
     /* Main Section */
     .m_Section h1{
         font-size: 2.8rem;
+        text-align: center;
     }
-    .m_Section h4{
-        font-size: 1.8rem;
+    .m_Section h4{ 
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 5px 1rem;
+        margin-top: 12px;
     }
      
 }
