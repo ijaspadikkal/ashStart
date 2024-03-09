@@ -56,9 +56,28 @@
         width: 50px;
         margin-right: 1rem;
     }
+    .menuIcon{
+        font-size: 1.5rem;
+        color: var(--tGreen);
+        display: block;
+    }
+    
     /* Nav Bar menu */
     .navBarS{
         display: none;
+    }
+    .responsive-navBarS{ 
+        /* display: none; */
+        display: flex;
+        flex-direction: column;
+        
+        padding-bottom: 2rem;
+    }
+    .responsive-navBarS a {
+        margin-left: 1rem;
+        color: var(--tDark);
+        font-size: 1.6rem;
+        padding: 4px 20px;
     }
 
     /* Main Section */
@@ -72,5 +91,5 @@
         padding: 5px 1rem;
         margin-top: 12px;
     }
-     /* test  */
+     
 }

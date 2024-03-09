@@ -100,6 +100,9 @@ button:hover {
 .logoSecondText {
     color: var(--tRed);
 }
+.menuIcon{
+    display: none;
+}
 
 /* Main Section */
 .m_Section {
@@ -138,7 +141,7 @@ button:hover {
 }
 
 .brandShowCase {
-    display: flex; 
+    display: flex;
 }
 
 .subMainSection h2 {
@@ -210,7 +213,7 @@ footer li {
 }
 
 .footerAlign {
-    justify-content: space-around; 
+    justify-content: space-around;
     flex-wrap: wrap;
 
 }
@@ -222,7 +225,7 @@ footer li {
 
 .footerBg {
     background-color: #014A44 !important;
-  
+
 }
 
 
@@ -346,7 +349,7 @@ form>button {
     color: var(--tGreen);
     text-align: left;
     position: relative;
-    top: 3rem; 
+    top: 3rem;
 }
 
 .p_Section h1 {
@@ -360,7 +363,7 @@ form>button {
 
 /* p-Product List */
 .p-card-sec {
-    margin : 5rem 0px; 
+    margin: 5rem 0px;
     display: flex;
     padding: 0px 8rem;
     flex-wrap: wrap;
@@ -374,7 +377,7 @@ form>button {
 }
 
 .p-card .card_body {
-    border-radius: .5rem; 
+    border-radius: .5rem;
     padding: .8rem .5rem;
     color: var(--textColorDark);
 }
@@ -386,38 +389,47 @@ form>button {
 .p-card img {
     width: 100%;
     border-radius: .5rem;
-} 
+}
+
 .p-card p {
     font-size: 14px;
     line-height: 1.3rem;
 }
-.p-card h3{
+
+.p-card h3 {
     color: var(--tGreen);
     margin-bottom: 1rem;
 }
 
 /* copy Right */
-.copyRight{
+.copyRight {
     background-color: #025a52;
     font-size: .8rem;
     color: var(--textColorLight);
 }
+
 /* Subscribe */
-.Subscribe-input{
+.Subscribe-input {
     border-radius: 45px;
+    
 }
-.Subscribe button{
+
+.Subscribe button {
     margin-top: 5px;
     margin-left: 15px;
 }
-.Subscribe span{ 
+
+.Subscribe span {
     color: var(--tDark);
 }
-.Subscribe .mailInput{
+
+.Subscribe .mailInput {
     width: 30%;
     margin-left: 4rem;
 }
-.Subscribe{
-    display: flex;flex-direction: row;
-   justify-content: center;
+
+.Subscribe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
