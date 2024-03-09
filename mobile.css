@@ -67,17 +67,17 @@
     }
 
     /* icons dsign code */
-    #closeIcon {
+    /* #closeIcon {
         display: none;
-    }
+    } */
 
     #openIcon {
         display: block;
     }
 
-    #mIconFunc {
+    /* #mIconFunc {
         display: none;
-    }
+    } */
 
 
     /* Nav Bar menu */
@@ -85,11 +85,8 @@
         display: none;
     }
 
-    .responsive-navBarS {
-        display: none;
-        /* display: flex; */
+    .responsive-navBarS { 
         flex-direction: column;
-
         padding-bottom: 2rem;
     }
 
