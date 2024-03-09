@@ -1,16 +1,11 @@
-Bootstrap not include
-
-trial Update after few days
+JQuery not include 
 
 
 
 
-
-To Do
-Find Map Location
-Build A structor of Footer
-Find Cookies
-Bulid other page structor
-
-
-Try to Change Code from office lab
+To Do  
+Find Cookies 
+screen size besed navbar close and open
+logo position stick
+clar titile and link all page
+ automatic heding and content size decressing

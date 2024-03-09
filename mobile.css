@@ -58,7 +58,7 @@
 
     .brand_logo img {
         width: 50px;
-        margin-right: 1rem;
+        margin-right: 0rem;
     }
 
     .menuIcon {
@@ -85,7 +85,7 @@
         display: none;
     }
 
-    .responsive-navBarS { 
+    .responsive-navBarS {
         flex-direction: column;
         padding-bottom: 2rem;
     }
@@ -109,5 +109,60 @@
         padding: 5px 1rem;
         margin-top: 12px;
     }
+
+    /* footer */
+    footer ul {
+        list-style: none;
+        text-align: left;
+        padding-left: 16px;
+    }
+
+
+
+    /* 
+        /// Contact Section 
+    */
+    .abtSecWidth {
+        padding: 1rem;
+        padding-top: 0px;
+    }
+
+    .aboutSec {
+        flex-direction: column;
+    }
+
+    .aboutSec .contactImg img {
+        display: none;
+    }
+
+    .contactImg h1 {
+        font-size: 1.85rem;
+        display: block;
+        text-align: center;
+        margin: 10px 0px;
+        margin-bottom: 1rem;
+    }
+
+    .aboutSec>div {
+        width: 100%;
+        margin: 0rem;
+    }
+    .form-sec{
+        width: 100wh;
+    }
+    input,
+    textarea {
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
 
 }

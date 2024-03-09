@@ -9,7 +9,7 @@
     --tRed: #F30309;
     --tGreen: #04A584;
 
-}
+} 
 
 body {
     margin: 0px;
@@ -311,7 +311,7 @@ footer li {
 
 }
 
-/* COntact */
+/* Contact */
 input,
 textarea {
     padding: 1rem;
@@ -334,6 +334,10 @@ textarea::placeholder {
 form>button {
     width: auto;
     padding: 15px;
+}
+.contactImg h1{
+    font-size: 3rem;
+    display: none;
 }
 
 /* Product */
