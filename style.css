@@ -100,7 +100,8 @@ button:hover {
 .logoSecondText {
     color: var(--tRed);
 }
-.menuIcon{
+
+.menuIcon {
     display: none;
 }
 
@@ -411,7 +412,7 @@ form>button {
 /* Subscribe */
 .Subscribe-input {
     border-radius: 45px;
-    
+
 }
 
 .Subscribe button {
@@ -433,3 +434,14 @@ form>button {
     flex-direction: row;
     justify-content: center;
 }
+
+/* icons dsign code */
+ #closeIcon{
+    display: none;
+ }
+ #openIcon{
+    display: none;
+ }
+ #mIconFunc{
+    display: none;
+ }

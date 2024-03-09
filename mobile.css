@@ -3,26 +3,30 @@
 
 
 @media (max-width: 480px) {
-    
-    
-    
-    
+
+
+
+
     /* Every Section Code */
-    p{
+    p {
         font-size: 1rem;
     }
+
     h2 {
         font-size: 2rem;
         padding: 10px;
     }
-    .subMainSection {  
+
+    .subMainSection {
         padding: 3rem 1rem;
         text-align: center;
     }
+
     .scro {
         width: 375px;
         overflow: auto;
     }
+
     .scro p {
         line-height: 19px;
         font-size: 13px;
@@ -56,23 +60,39 @@
         width: 50px;
         margin-right: 1rem;
     }
-    .menuIcon{
+
+    .menuIcon {
         font-size: 1.5rem;
         color: var(--tGreen);
-        display: block;
     }
-    
-    /* Nav Bar menu */
-    .navBarS{
+
+    /* icons dsign code */
+    #closeIcon {
         display: none;
     }
-    .responsive-navBarS{ 
-        /* display: none; */
-        display: flex;
+
+    #openIcon {
+        display: block;
+    }
+
+    #mIconFunc {
+        display: none;
+    }
+
+
+    /* Nav Bar menu */
+    .navBarS {
+        display: none;
+    }
+
+    .responsive-navBarS {
+        display: none;
+        /* display: flex; */
         flex-direction: column;
-        
+
         padding-bottom: 2rem;
     }
+
     .responsive-navBarS a {
         margin-left: 1rem;
         color: var(--tDark);
@@ -81,15 +101,16 @@
     }
 
     /* Main Section */
-    .m_Section h1{
+    .m_Section h1 {
         font-size: 2.8rem;
         text-align: center;
     }
-    .m_Section h4{ 
+
+    .m_Section h4 {
         text-align: center;
         font-size: 1.2rem;
         padding: 5px 1rem;
         margin-top: 12px;
     }
-     
+
 }
