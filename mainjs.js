@@ -7,8 +7,9 @@
 //     openIcon.style.display = "none"
 
 // }
+var actualWid = window.innerWidth; 
 
-
+alert(actualWid)
 $(function () {
     $("#openIcon").click(function () {
         // $("#mIconFunc").show();
