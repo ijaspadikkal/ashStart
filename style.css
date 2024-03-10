@@ -3,6 +3,7 @@
     --primary-color: #f46200;
     --headding-color: #222222;
     --section-bg: #F8F8F8;
+    /* --section-bg: #b4adadbe; */
     --textColorLight: #fff;
     --textColorDark: #000;
     --tDark: #1A4A5E;
@@ -63,17 +64,18 @@ p {
 }
 
 .navBarS a {
-    color: var(--tDark); 
+    color: var(--tDark);
     padding: 25px 20px;
     cursor: pointer;
 }
- 
+
 .navBarS>a:hover {
     color: var(--tGreen);
     background-color: #22222210;
     background-color: var(--section-bg);
 }
-.active {  
+
+.active {
     background-color: var(--section-bg) !important;
 
 }
@@ -102,7 +104,7 @@ button:hover {
 
 .topNav .brand_logo h2 {
     color: var(--body-color);
-    font-size: 2.3rem;
+    font-size: 3vw;
 }
 
 .logoSecondText {
@@ -166,16 +168,22 @@ button:hover {
     margin: 0px;
 }
 
+.scro {
+    overflow: auto;
+} 
+
 /* <!-- Brand Higlight --> */
 .brandItem img {
-    width: 15rem;
-    background-color: #03A583;
+    /* width: 15rem; */
+    width: 18vw;
+    /* background-color: #03A583; */
     margin: 2.5rem 1.2rem;
 }
 
 /* Importence */
 .brandImportence {
-    width: 15rem;
+    /* width: 15rem; */
+    width: 18vw; 
     margin: 1rem 1rem;
 }
 
@@ -186,12 +194,14 @@ button:hover {
 
 /* Client Review */
 .brandReview {
-    width: 20rem;
+    /* width: 20rem; */
+    width: 19vw;
     margin: 1rem;
 }
 
 .brandReview img {
     width: 10rem;
+     width: 18vw;
 }
 
 .client_img {
@@ -257,10 +267,10 @@ footer li {
 .aboutSec>div {
     width: 50%;
     margin: 2rem;
-   
-   
+
+
 }
- 
+
 .aboutSec img {
     width: 100%;
 }
@@ -275,12 +285,14 @@ footer li {
 }
 
 /* Premarajan */
-.premrajan { 
+.premrajan {
     background-color: var(--textColorLight);
 }
-.db{
+
+.db {
     display: none;
 }
+
 /* team */
 .team p {
     margin: 0px;
@@ -299,7 +311,7 @@ footer li {
 .jkl {
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    justify-content: center;
     overflow: auto;
 }
 

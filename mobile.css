@@ -4,9 +4,6 @@
 
 @media (max-width: 480px) {
 
-
-
-
     /* Every Section Code */
     p {
         font-size: 1rem;
@@ -23,8 +20,9 @@
     }
 
     .scro {
-        width: 375px;
         overflow: auto;
+        width: 78vw;
+        /* width: 375px; */
     }
 
     .scro p {
@@ -53,7 +51,7 @@
 
     .topNav .brand_logo h2 {
         color: var(--body-color);
-        font-size: 2.3rem;
+        font-size: 5vw;
     }
 
     .brand_logo img {
@@ -106,6 +104,46 @@
         margin-top: 12px;
     }
 
+    /* section Every */
+
+    .brandItem img {
+        width: 51vw; 
+    }
+
+    /* .brandImportence {
+        width: 45vw;
+
+    } */
+
+    .brandReview {
+        /* display: flex;
+        flex-direction: column;
+        width: 24vw;
+        min-width: 54vw;
+        align-items: center; 
+        background-color: #fff; 
+        padding: 20px;
+        border-radius: 16px;  */
+        
+    }
+    .sec-back-style{ 
+        display: flex;
+        flex-direction: column;
+        width: 24vw;
+        min-width: 54vw;
+        align-items: center; 
+        background-color: #fff; 
+        padding: 20px;
+        border-radius: 16px; 
+        -webkit-box-shadow: 0 0 10px #818080;
+        box-shadow: 0 0 10px #3c3b3b77;
+        margin: .8rem;
+    }
+
+    .brandReview img {
+        width: 40vw;
+    }
+
     /* Subscribe */
     .Subscribe-input {
         border-radius: 10px;
@@ -136,6 +174,11 @@
 
     footer li {
         font-size: 14px;
+    }
+
+    footerAlign {
+        display: flex;
+        flex-direction: column;
     }
 
 
@@ -266,4 +309,12 @@
         padding: 0rem;
 
     }
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+    h1 {
+        background-color: aqua !important;
+    }
+
 }
