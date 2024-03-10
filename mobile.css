@@ -69,6 +69,10 @@
     .responsive-navBarS {
         flex-direction: column;
         padding-bottom: 2rem;
+        background-color: #fff;
+        position: sticky;
+        top: 51px;
+        z-index: 9;
     }
 
     .responsive-navBarS a {
@@ -154,19 +158,21 @@
         display: none;
     }
 
- 
+
     /* Footer */
-    .footerBg { 
-        flex-direction: column; 
+    .footerBg {
+        flex-direction: column;
     }
+
     footer li,
     a {
-        font-size: 14px; 
+        font-size: 14px;
     }
-   .fa-location-dot{
-    margin-top: 2rem;
-   }
-     
+
+    .fa-location-dot {
+        margin-top: 2rem;
+    }
+
     /*  Contact Section   */
     .abtSecWidth {
         padding: 1rem;
@@ -230,6 +236,7 @@
     */
 
     .about h2 {
+        font-size: 32.5px;
         text-align: center;
     }
 
@@ -246,13 +253,6 @@
         margin-bottom: .5rem
     }
 
-    .db {
-        display: block;
-    }
-
-    .dn {
-        display: none;
-    }
 
     /* team */
     .team {
