@@ -107,7 +107,7 @@
     /* section Every */
 
     .brandItem img {
-        width: 51vw; 
+        width: 51vw;
     }
 
     /* .brandImportence {
@@ -115,26 +115,16 @@
 
     } */
 
-    .brandReview {
-        /* display: flex;
-        flex-direction: column;
-        width: 24vw;
-        min-width: 54vw;
-        align-items: center; 
-        background-color: #fff; 
-        padding: 20px;
-        border-radius: 16px;  */
-        
-    }
-    .sec-back-style{ 
+
+    .sec-back-style {
         display: flex;
         flex-direction: column;
         width: 24vw;
         min-width: 54vw;
-        align-items: center; 
-        background-color: #fff; 
+        align-items: center;
+        background-color: #fff;
         padding: 20px;
-        border-radius: 16px; 
+        border-radius: 16px;
         -webkit-box-shadow: 0 0 10px #818080;
         box-shadow: 0 0 10px #3c3b3b77;
         margin: .8rem;
@@ -164,27 +154,20 @@
         display: none;
     }
 
-
-    /* footer */
-    footer ul {
-        list-style: none;
-        text-align: left;
-        padding-left: 16px;
+ 
+    /* Footer */
+    .footerBg { 
+        flex-direction: column; 
     }
-
-    footer li {
-        font-size: 14px;
+    footer li,
+    a {
+        font-size: 14px; 
     }
-
-    footerAlign {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    /* 
-        /// Contact Section 
-    */
+   .fa-location-dot{
+    margin-top: 2rem;
+   }
+     
+    /*  Contact Section   */
     .abtSecWidth {
         padding: 1rem;
         padding-top: 0px;

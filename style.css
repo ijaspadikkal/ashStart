@@ -220,37 +220,31 @@ button:hover {
 }
 
 /* Footer */
-footer ul {
-    list-style: none;
-    text-align: left;
+.footerBg{
+    display: flex;
+    flex-direction: row;
+    background-color: #014A44 ; 
+    justify-content: space-around;
+    font-weight: 400;
 }
 
 footer li,
 a {
     color: var(--section-bg);
 }
-
-footer li {
-    padding: .3rem 0px;
-    line-height: 1.5rem;
+footer ul {
+    list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
 }
-
-.footerAlign {
-    justify-content: space-around;
-    flex-wrap: wrap;
-
+footer li{
+    padding: .5rem;  
 }
-
-.footerAlign>div {
-    width: 400px;
-    text-align: center;
+footer iframe{
+    width: auto;
 }
-
-.footerBg {
-    background-color: #014A44 !important;
-
-}
-
+ 
 
 /* About */
 .abtSecWidth {
