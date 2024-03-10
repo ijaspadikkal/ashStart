@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aparna Surgical | About </title>
+    <title>Aparna Surgical | Product </title>
     <!-- Our Style -->
     <link rel="shortcut icon" href="./assets/fevIcon.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -19,23 +19,39 @@
 
 <body>
     <section class="topHead">
-        <div><a href="#">Call US (+91) 96055 01761</a> <a href="#">ahscalicut2020@gmail.com</a></div>
+        <div>
+            <a href="#">Call US (+91) 96055 01761</a>
+            <a href="#">ahscalicut2020@gmail.com</a>
+        </div>
     </section>
+
     <section class="topNav">
         <div class="brand_logo">
             <img src="./assets/fevIcon.png" alt="">
             <a href="./index.html">
                 <h2>Aparna <span class="logoSecondText">Surgical</span></h2>
             </a>
+
         </div>
-        <div class="navBarS"> 
+        <div class="navBarS">
             <a href="./index.html">Home</a>
-            <a href="./products.html">Product</a>
+            <a href="./products.html" class="active">Product</a>
             <a href="./about.html">About</a>
             <a href="./contact.html">Contact us</a>
         </div>
+        <div>
+            <i class="fa-solid fa-xmark menuIcon" id="closeIcon" onclick="hideMenu()"></i>
+            <i class="fa-solid fa-bars menuIcon" id="openIcon" onclick="showMenu()"></i>
+        </div>
         <!-- <div> <button><b>Get Quote</b></button></div> -->
     </section>
+    <!-- mobile nav bar -->
+    <div class="responsive-navBarS" id="mIconFunc">
+        <a href="./index.html">Home</a>
+        <a href="./products.html">Product</a>
+        <a href="./about.html">About</a>
+        <a href="./contact.html">Contact us</a>
+    </div>
 
     <!-- Product Section -->
     <section class="p_Section">
@@ -45,7 +61,7 @@
             </h1>
         </div>
     </section>
-    
+
     <!-- Product List Section -->
     <section class="p-card-sec">
         <div class="p-card">
@@ -66,7 +82,7 @@
                     <button>Get Quote</button>
                 </div>
             </a>
-       
+
         </div>
         <div class="p-card">
             <h3>Brand Name</h3>
@@ -78,13 +94,14 @@
 
                     </div>
                     <p>
-                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain sterile conditions during medical procedures.
+                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain
+                        sterile conditions during medical procedures.
                     </p>
 
                     <button>Get Quote</button>
                 </div>
             </a>
-       
+
         </div>
         <div class="p-card">
             <h3>Brand Name</h3>
@@ -96,13 +113,14 @@
 
                     </div>
                     <p>
-                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain sterile conditions during medical procedures.
+                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain
+                        sterile conditions during medical procedures.
                     </p>
 
                     <button>Get Quote</button>
                 </div>
             </a>
-       
+
         </div>
         <div class="p-card">
             <h3>Brand Name</h3>
@@ -114,13 +132,14 @@
 
                     </div>
                     <p>
-                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain sterile conditions during medical procedures.    
+                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain
+                        sterile conditions during medical procedures.
                     </p>
 
                     <button>Get Quote</button>
                 </div>
             </a>
-       
+
         </div>
         <div class="p-card">
             <h3>Brand Name</h3>
@@ -132,14 +151,15 @@
 
                     </div>
                     <p>
-                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain sterile conditions during medical procedures.    
+                        Surgical disposable products, such as gloves, masks, gowns, and drapes, are designed to maintain
+                        sterile conditions during medical procedures.
                     </p>
 
                     <button>Get Quote</button>
                 </div>
             </a>
-       
-        </div>  
+
+        </div>
     </section>
 
 
@@ -148,7 +168,7 @@
             <div>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d978.3036732138322!2d75.79319736279282!3d11.245611088830513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba659bdf820cf51%3A0x31cc7089fc433ac8!2sAparna%20Healthcare%20Solutions%20LLP!5e0!3m2!1sen!2sin!4v1709358323214!5m2!1sen!2sin"
-                    width="400px" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
+                    width="auto" height="200px" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
@@ -170,7 +190,10 @@
             </div>
         </div>
     </footer>
-
+    <section class="copyRight">
+        <span>&nbsp; Copyright © Aparna Healthcare Solutions - All Rights Reserved.</span>
+    </section>
+    <script src="./mainjs.js"></script>
 </body>
 
 </html>

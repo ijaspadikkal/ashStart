@@ -4,8 +4,10 @@ JQuery not include
 
 
 To Do  
+image quality
 Find Cookies 
 screen size besed navbar close and open
 logo position stick
 clar titile and link all page
- automatic heding and content size decressing
+automatic heding and content size decressing
+sticky menubar

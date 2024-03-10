@@ -15,9 +15,12 @@
 
 </head>
 
-<body>
+<body class="about">
     <section class="topHead">
-        <div><a href="#">Call US (+91) 96055 01761</a> <a href="#">ahscalicut2020@gmail.com</a></div>
+        <div>
+            <a href="#">Call US (+91) 96055 01761</a>
+            <a href="#">ahscalicut2020@gmail.com</a>
+        </div>
     </section>
 
     <section class="topNav">
@@ -26,19 +29,31 @@
             <a href="./index.html">
                 <h2>Aparna <span class="logoSecondText">Surgical</span></h2>
             </a>
+
         </div>
         <div class="navBarS">
             <a href="./index.html">Home</a>
             <a href="./products.html">Product</a>
-            <a href="./about.html">About</a>
+            <a href="./about.html" class="active">About</a>
             <a href="./contact.html">Contact us</a>
+        </div>
+        <div>
+            <i class="fa-solid fa-xmark menuIcon" id="closeIcon" onclick="hideMenu()"></i>
+            <i class="fa-solid fa-bars menuIcon" id="openIcon" onclick="showMenu()"></i>
         </div>
         <!-- <div> <button><b>Get Quote</b></button></div> -->
     </section>
+    <!-- mobile nav bar -->
+    <div class="responsive-navBarS" id="mIconFunc">
+        <a href="./index.html">Home</a>
+        <a href="./products.html">Product</a>
+        <a href="./about.html" class="active">About</a>
+        <a href="./contact.html">Contact us</a>
+    </div>
     <!-- About Section  -->
     <section class="aboutSec abtSecWidth">
         <div class="contactImg">
-            <img src="./assets/surgi_bg.jpg" alt="About_Image">
+            <img src="./assets/surgi_bg.webp" alt="About_Image">
         </div>
         <div>
             <h2>About Us</h2>
@@ -62,9 +77,10 @@
     </section>
     <!-- DM Profile  -->
     <section class="aboutSec abtSecWidth premrajan">
+
         <div>
-            <h2>Premarajan</h2>
-            <em>CEO of Aparna Health Care Solution LLP</em>
+            <h2 class="dn">Premarajan</h2>
+            <em class="dn">CEO of Aparna Health Care Solution LLP</em>
             <p>
                 After completion of my B-Com Graduation I was joined with
                 Transport Corporation of India Ltd., as an Accounts Assistant at their Allahabad Branch in 1986. TCI
@@ -92,8 +108,12 @@
                 This my 35 Year’s Journey of carrier life from 1985 to 2020.
             </p>
         </div>
-        <div>
+        <div class="PremarajanImg">
             <img src="./assets/prem.jpg" alt="About_Image">
+        </div>
+        <div class="db">
+            <h2>Premarajan</h2>
+            <em>CEO of Aparna Health Care Solution LLP</em>
         </div>
 
     </section>
@@ -107,9 +127,10 @@
                     <img src="./assets/profile.webp" alt="">
                 </div>
                 <div class="card-body">
-                    <p><b>Name of Person</b></p>
-                    <p><i>Duty of Person</i></p>
-                    <p>Description; writ about worker details to see </p>
+                    
+                    <p><b>Kumaran C</b></p>
+                    <p><i>Finanace Manager</i></p>
+                    <!-- <p>Description; writ about worker details to see </p> -->
                 </div>
             </div>
             <div class="cardBg">
@@ -117,9 +138,10 @@
                     <img src="./assets/profile.webp" alt="">
                 </div>
                 <div class="card-body">
-                    <p><b>Name of Person</b></p>
-                    <p><i>Duty of Person</i></p>
-                    <p>Description; writ about worker details to seewrit about worker details to see </p>
+                    <p><b>Vijith N.K</b></p>
+                    
+                    <p><i>Area Sales Manager</i></p>
+                    <!-- <p>Description; writ about worker details to seewrit about worker details to see </p> -->
                 </div>
             </div>
             <div class="cardBg">
@@ -127,9 +149,9 @@
                     <img src="./assets/profile.webp" alt="">
                 </div>
                 <div class="card-body">
-                    <p><b>Name of Person</b></p>
-                    <p><i>Duty of Person</i></p>
-                    <p>Description; writ about worker details to see </p>
+                    <p><b>Abin Raj</b></p>
+                    <p><i>Sales Manager</i></p>
+                    <!-- <p>Description; writ about worker details to see </p> -->
                 </div>
             </div>
 
@@ -165,6 +187,10 @@
             </div>
         </div>
     </footer>
+    <section class="copyRight">
+        <span>&nbsp; Copyright © Aparna Healthcare Solutions - All Rights Reserved.</span>
+    </section>
+    <script src="./mainjs.js"></script>
 </body>
 
 </html>

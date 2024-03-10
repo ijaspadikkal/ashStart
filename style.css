@@ -8,8 +8,9 @@
     --tDark: #1A4A5E;
     --tRed: #F30309;
     --tGreen: #04A584;
+    --active: #04a5855e;
 
-} 
+}
 
 body {
     margin: 0px;
@@ -34,6 +35,8 @@ p {
     font-size: 18px;
     line-height: 2rem;
 }
+
+/* DSIPLEY nONE */
 
 /* Top Section */
 .topHead {
@@ -60,14 +63,19 @@ p {
 }
 
 .navBarS a {
-    color: var(--tDark);
-    padding: 1.6rem 20px;
+    color: var(--tDark); 
+    padding: 25px 20px;
     cursor: pointer;
 }
-
+ 
 .navBarS>a:hover {
     color: var(--tGreen);
     background-color: #22222210;
+    background-color: var(--section-bg);
+}
+.active {  
+    background-color: var(--section-bg) !important;
+
 }
 
 button {
@@ -107,16 +115,20 @@ button:hover {
 
 /* Main Section */
 .m_Section {
-    height: 80vh;
-    background-image: url(./assets/surgi_bg.jpg);
-    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.jpg);
+    /* height: 80vh; */
+    background-image: url(./assets/surgi_bg.webp);
+    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp);
     background-size: cover;
     background-blend-mode: multiply;
     background-color: var(--body-color);
     color: var(--section-bg);
+}
+
+.m_Section {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 4rem 3rem;
 }
 
 .m_Section>div {
@@ -245,8 +257,10 @@ footer li {
 .aboutSec>div {
     width: 50%;
     margin: 2rem;
+   
+   
 }
-
+ 
 .aboutSec img {
     width: 100%;
 }
@@ -261,10 +275,12 @@ footer li {
 }
 
 /* Premarajan */
-.premrajan {
+.premrajan { 
     background-color: var(--textColorLight);
 }
-
+.db{
+    display: none;
+}
 /* team */
 .team p {
     margin: 0px;
@@ -283,8 +299,8 @@ footer li {
 .jkl {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 100wh;
+    justify-content: center;  
+    overflow: auto;
 }
 
 .cardBg {
@@ -304,7 +320,7 @@ footer li {
 }
 
 .card-body {
-    height: 160px;
+    height: auto;
     background-color: var(--tGreen);
     color: var(--textColorLight);
     padding: 1rem;
@@ -335,7 +351,8 @@ form>button {
     width: auto;
     padding: 15px;
 }
-.contactImg h1{
+
+.contactImg h1 {
     font-size: 3rem;
     display: none;
 }
@@ -343,7 +360,8 @@ form>button {
 /* Product */
 .p_Section {
     height: 50vh;
-    background-image: url(./assets/surgi_bg.jpg);
+    background-image: url(./assets/surgi_bg.webp);
+    /* background: linear-gradient(0deg,    rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp); */
     background-size: cover;
     display: flex;
     align-items: end;
@@ -370,15 +388,19 @@ form>button {
 .p-card-sec {
     margin: 5rem 0px;
     display: flex;
-    padding: 0px 8rem;
+    padding: 0px 6rem;
     flex-wrap: wrap;
 }
 
 .p-card {
-    width: 30%;
+    width: 28%;
+    margin: .5rem;
     margin-top: 0px;
     text-align: center;
     padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--section-bg);
 }
 
 .p-card .card_body {
@@ -404,6 +426,7 @@ form>button {
 .p-card h3 {
     color: var(--tGreen);
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 /* copy Right */
@@ -440,12 +463,14 @@ form>button {
 }
 
 /* icons dsign code */
- #closeIcon{
+#closeIcon {
     display: none;
- }
- #openIcon{
+}
+
+#openIcon {
     display: none;
- }
- #mIconFunc{
+}
+
+#mIconFunc {
     display: none;
- }
+}

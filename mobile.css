@@ -61,23 +61,6 @@
         margin-right: 0rem;
     }
 
-    .menuIcon {
-        font-size: 1.5rem;
-        color: var(--tGreen);
-    }
-
-    /* icons dsign code */
-    /* #closeIcon {
-        display: none;
-    } */
-
-    #openIcon {
-        display: block;
-    }
-
-    /* #mIconFunc {
-        display: none;
-    } */
 
 
     /* Nav Bar menu */
@@ -91,24 +74,58 @@
     }
 
     .responsive-navBarS a {
-        margin-left: 1rem;
+        margin-left: 0rem;
         color: var(--tDark);
         font-size: 1.6rem;
         padding: 4px 20px;
+        padding-left: 3rem;
+    }
+
+    .menuIcon {
+        font-size: 1.5rem;
+        color: var(--tGreen);
+    }
+
+
+    #openIcon {
+        display: block;
     }
 
     /* Main Section */
-    .m_Section h1 {
+    .m_Section h1,
+    .p_Section h1 {
         font-size: 2.8rem;
         text-align: center;
     }
 
-    .m_Section h4 {
+    .m_Section h4,
+    .p_Section span {
         text-align: center;
         font-size: 1.2rem;
         padding: 5px 1rem;
         margin-top: 12px;
     }
+
+    /* Subscribe */
+    .Subscribe-input {
+        border-radius: 10px;
+
+    }
+
+    .Subscribe button {
+        margin-top: 5px;
+    }
+
+
+    .Subscribe .mailInput {
+        width: 80%;
+        margin-left: 0rem;
+    }
+
+    .Subscribe img {
+        display: none;
+    }
+
 
     /* footer */
     footer ul {
@@ -117,6 +134,9 @@
         padding-left: 16px;
     }
 
+    footer li {
+        font-size: 14px;
+    }
 
 
     /* 
@@ -147,22 +167,103 @@
         width: 100%;
         margin: 0rem;
     }
-    .form-sec{
+
+    .form-sec {
         width: 100wh;
     }
+
     input,
     textarea {
         width: 90%;
     }
 
+    /* 
+        /// Product Section 
+    */
 
+    .p_Section span {
+        font-size: 1.5rem;
+    }
 
+    .p-card-sec {
+        padding: 0px 2.5rem;
 
+    }
 
+    .p-card {
+        width: 100%;
+        padding: 1rem;
+        /* border: 1px solid var(--tGreen); */
+        border-radius: 0.5rem;
+        margin-bottom: 1rem;
+        background-color: var(--section-bg);
+    }
 
+    /* 
+        /// About Section 
+    */
 
+    .about h2 {
+        text-align: center;
+    }
 
+    /* premrajan */
+    .premrajan {
+        display: flex;
+        /* flex-direction: ; */
+        flex-direction: column-reverse;
+    }
 
+    .premrajan em {
+        display: block;
+        text-align: center;
+        margin-bottom: .5rem
+    }
 
+    .db {
+        display: block;
+    }
 
+    .dn {
+        display: none;
+    }
+
+    /* team */
+    .team {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .jkl {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        /* overflow: auto; */
+    }
+
+    .cardBg {
+        padding: 10px;
+        width: 300px;
+        margin: 0px 0rem;
+        margin-bottom: 6rem;
+
+    }
+
+    .profileCanvas {
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .card-body {
+        /* display: none; */
+        height: auto;
+        background-color: var(--tGreen);
+        color: var(--textColorLight);
+        padding: 0rem;
+
+    }
 }
