@@ -21,7 +21,7 @@
 
     .scro {
         overflow: auto;
-        width: 78vw;
+        width: 100vw;
         /* width: 375px; */
     }
 
@@ -31,13 +31,16 @@
     }
 
     /* t.topHead */
-    .topHead div {
+    .topHead > div {
+        width: 100vw;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .topHead a {
-        padding: 0px
+        padding: 0px;
+        font-size: 13px;
     }
 
     /* Navbar */
