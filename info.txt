@@ -14,3 +14,5 @@ sticky menubar //
 footer menu link align in mobile left 
 re write to responsive code
 reset color
+
+
