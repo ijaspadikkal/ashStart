@@ -21,31 +21,4 @@ function hideMenu(){
     openIcon.style.display = "block"
     
 
-} 
-
-// alert(actualWid)
-// $(function () {
-//     $("#openIcon").click(function () {
-        
-
-//         if ($(window).width() < 480) {
-//             $("#mIconFunc").show();
-//             $("#openIcon").hide();
-//             $("#closeIcon").show();
-//             alert('Less than 960');
-//          }
-//          else {
-//             alert('More than 960');
-//          }
-//     });
-//     $("#closeIcon").click(function () {
-     
-         
-//             $("#mIconFunc").hide();
-//             $("#openIcon").show();
-//             $("#closeIcon").hide();
-           
-         
-//     });
-
-// });
+}  

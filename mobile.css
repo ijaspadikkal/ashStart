@@ -98,6 +98,9 @@
     }
 
     /* Main Section */
+    .m_Section{
+        padding: 5rem 3rem;
+    }
     .m_Section h1,
     .p_Section h1 {
 
@@ -390,6 +393,9 @@
         display: block;
     }
     /* Main Section */
+    .m_Section{
+        padding: 9rem 5rem;
+    }
     .m_Section h1,
     .p_Section h1 {
         font-size: 2.5rem;
@@ -410,12 +416,7 @@
         margin: 0.5rem 0.2rem;
     
     }
-
-    /* .brandImportence {
-        width: 45vw;
-
-    } */
-
+ 
 
     .sec-back-style {
         display: flex;

@@ -32,7 +32,7 @@ h2 {
 }
 
 p {
-    font-size: 18px;
+    /* font-size: 17px; */
     line-height: 2rem;
 }
 
@@ -133,7 +133,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 3rem;
+    padding: 10rem 3rem;
 }
 
 .m_Section>div {
@@ -157,7 +157,7 @@ button:hover {
     padding: 3rem 5rem;
 }
 
-.subMainSection:nth-child(even) {
+.subMainSection:nth-child(odd) {
     background-color: var(--textColorLight);
 }
 
@@ -191,6 +191,7 @@ button:hover {
     /* width: 15rem; */
     width: 18vw; 
     margin: 1rem 1rem;
+    text-align: center;
 }
 
 .brandImportence img {
