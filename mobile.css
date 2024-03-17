@@ -31,7 +31,7 @@
     }
 
     /* t.topHead */
-    .topHead > div {
+    .topHead>div {
         width: 100vw;
         display: flex;
         flex-direction: row;
@@ -98,13 +98,14 @@
     }
 
     /* Main Section */
-    .m_Section{
+    .m_Section {
         padding: 5rem 3rem;
     }
+
     .m_Section h1,
     .p_Section h1 {
 
-        font-size: 2rem; 
+        font-size: 2rem;
         text-align: center;
     }
 
@@ -121,12 +122,27 @@
     .brandItem img {
         width: 51vw;
     }
+    .brandIMpo{
+        display: flex;
+        flex-direction: column;
+    }
 
-    /* .brandImportence {
-        width: 45vw;
+    .brandImportence {  
+        min-width: 90vw;
+        align-items: center;
+        background-color: #fff;
+        padding: 0px;
+        border-radius: 9px;
+        -webkit-box-shadow: 0 0 3px #818080;
+        box-shadow: 0 0 3px #3c3b3b77; 
+        margin: .5rem;
 
-    } */
 
+    }
+
+    .impoMob {
+        display: flex;
+    }
 
     .sec-back-style {
         display: flex;
@@ -303,10 +319,10 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-/* @media (min-width: 480px)  { */
+    /* @media (min-width: 480px)  { */
 
-     /* Every Section Code */
-     p {
+    /* Every Section Code */
+    p {
         font-size: 1rem;
     }
 
@@ -330,8 +346,9 @@
         line-height: 19px;
         font-size: 13px;
     }
+
     /* t.topHead */
-    .topHead > div {
+    .topHead>div {
         width: 100vw;
         display: flex;
         flex-direction: row;
@@ -342,6 +359,7 @@
         padding: 0px;
         font-size: 13px;
     }
+
     /* Navbar */
     .topNav {
         flex-wrap: wrap;
@@ -360,6 +378,7 @@
         width: 50px;
         margin-right: 0rem;
     }
+
     /* Nav Bar menu */
     .navBarS {
         display: none;
@@ -392,10 +411,12 @@
     #openIcon {
         display: block;
     }
+
     /* Main Section */
-    .m_Section{
+    .m_Section {
         padding: 9rem 5rem;
     }
+
     .m_Section h1,
     .p_Section h1 {
         font-size: 2.5rem;
@@ -409,14 +430,15 @@
         padding: 5px 1rem;
         margin-top: 12px;
     }
-     /* section Every */
 
-     .brandItem img {
+    /* section Every */
+
+    .brandItem img {
         width: 29vw;
         margin: 0.5rem 0.2rem;
-    
+
     }
- 
+
 
     .sec-back-style {
         display: flex;
@@ -435,8 +457,9 @@
     .brandReview img {
         width: 22vw;
     }
-     /* Subscribe */
-     .Subscribe-input {
+
+    /* Subscribe */
+    .Subscribe-input {
         border-radius: 10px;
 
     }
@@ -454,8 +477,9 @@
     .Subscribe img {
         display: none;
     }
-     /* Footer */
-     .footerBg {
+
+    /* Footer */
+    .footerBg {
         flex-direction: column;
     }
 
@@ -467,8 +491,9 @@
     .fa-location-dot {
         margin-top: 2rem;
     }
-     /*  Contact Section   */
-     .abtSecWidth {
+
+    /*  Contact Section   */
+    .abtSecWidth {
         padding: 1rem;
         padding-top: 0px;
     }

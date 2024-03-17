@@ -124,11 +124,11 @@ button:hover {
 /* Main Section */
 .m_Section {
     /* height: 80vh; */
-    background-image: url(./assets/surgi_bg.webp);
-    background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp);
+    background-image: url(./assets/Smiling-Surgeon.jpg);
+    /* background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/Smiling-Surgeon.jpg); */
     background-size: cover;
+    background-color: #99c5ff;
     background-blend-mode: multiply;
-    background-color: var(--body-color);
     color: var(--section-bg);
 }
 
@@ -190,11 +190,10 @@ button:hover {
 }
 
 /* Importence */
-.brandImportence {
-    /* width: 15rem; */
+.brandImportence { 
     width: 18vw;
     margin: 1rem 1rem;
-    text-align: center;
+    text-align: center; 
 }
 
 .brandImportence img {
