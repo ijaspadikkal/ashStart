@@ -7,8 +7,10 @@
     --textColorDark: #000000;
     --tDark: #1A4A5E;
     --tRed: #F30309;
-    --tGreen: #04A584;
+    /* --tGreen: #04A584; */
+    --tGreen: #00b143;
     --active: #04a5855e;
+    --icon: #00b143;
 
 }
 
@@ -196,7 +198,7 @@ button:hover {
 
 .brandImportence img {
     width: 8rem;
-    margin-bottom: 1.2rem;
+    margin-top: 1.2rem;
 }
 
 /* Client Review */
