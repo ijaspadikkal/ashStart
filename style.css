@@ -2,13 +2,13 @@
     --body-color: #03A583;
     --primary-color: #f46200;
     --headding-color: #222222;
-    --section-bg: #F8F8F8; 
+    --section-bg: #F8F8F8;
     --textColorLight: #fff;
     --textColorDark: #000000;
     --tDark: #1A4A5E;
     --tRed: #F30309;
-    /* --tGreen: #04A584; */
-    --tGreen: #00b143;
+    --tGreen: #04A584;
+    /* --tGreen: #00b143; */
     --active: #04a5855e;
     --icon: #00b143;
 
@@ -35,7 +35,7 @@ h2 {
 
 p {
     /* font-size: 17px; */
-    line-height: 2rem;
+    line-height: 1.75rem;
 }
 
 /* DSIPLEY nONE */
@@ -63,7 +63,8 @@ p {
     justify-content: space-around;
     background-color: #fff;
     position: sticky;
-    top: 0; /* Stick the navbar to the top of the viewport */
+    top: 0;
+    /* Stick the navbar to the top of the viewport */
     z-index: 10;
 }
 
@@ -178,7 +179,7 @@ button:hover {
 
 .scro {
     overflow: auto;
-} 
+}
 
 /* <!-- Brand Higlight --> */
 .brandItem img {
@@ -191,7 +192,7 @@ button:hover {
 /* Importence */
 .brandImportence {
     /* width: 15rem; */
-    width: 18vw; 
+    width: 18vw;
     margin: 1rem 1rem;
     text-align: center;
 }
@@ -202,15 +203,13 @@ button:hover {
 }
 
 /* Client Review */
-.brandReview {
-    /* width: 20rem; */
+.brandReview { 
     width: 19vw;
     margin: 1rem;
 }
 
-.brandReview img {
-    width: 10rem;
-     width: 18vw;
+.brandReview img { 
+    width: 13vw;
 }
 
 .client_img {
@@ -229,10 +228,10 @@ button:hover {
 }
 
 /* Footer */
-.footerBg{
+.footerBg {
     display: flex;
     flex-direction: row;
-    background-color: #014A44 !important ; 
+    background-color: #014A44 !important;
     justify-content: space-around;
     font-weight: 400;
 }
@@ -241,19 +240,22 @@ footer li,
 a {
     color: var(--section-bg);
 }
+
 footer ul {
     list-style: none;
     text-align: left;
     margin: 0px;
     padding: 0px;
 }
-footer li{
-    padding: .5rem;  
+
+footer li {
+    padding: .5rem;
 }
-footer iframe{
+
+footer iframe {
     width: auto;
 }
- 
+
 
 /* About */
 .abtSecWidth {
