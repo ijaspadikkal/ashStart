@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,700;1,700&display=swap');
+
+
 :root {
     --body-color: #03A583;
     --primary-color: #f46200;
@@ -109,6 +113,11 @@ button:hover {
 }
 
 .topNav .brand_logo h2 {
+    /* font-family: "Fjalla One", sans-serif; */
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
     color: var(--body-color);
     font-size: 3vw;
 }
@@ -194,10 +203,10 @@ button:hover {
 }
 
 /* Importence */
-.brandImportence { 
+.brandImportence {
     width: 18vw;
     margin: 1rem 1rem;
-    text-align: center; 
+    text-align: center;
 }
 
 .brandImportence img {
@@ -206,12 +215,12 @@ button:hover {
 }
 
 /* Client Review */
-.brandReview { 
+.brandReview {
     width: 19vw;
     margin: 1rem;
 }
 
-.brandReview img { 
+.brandReview img {
     width: 13vw;
 }
 
@@ -380,16 +389,20 @@ form>button {
 /* Product */
 .p_Section {
     height: 50vh;
-    background-image: url(./assets/surgi_bg.webp);
+    background-image: url(./assets/products-disposabale.jpg);
     /* background: linear-gradient(0deg,    rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp); */
     background-size: cover;
+    background-position: 12px;
     display: flex;
     align-items: end;
     justify-content: center;
+    
 }
 
 .p_Section>div {
     color: var(--tGreen);
+    color: var(--textColorLight)  ; 
+    text-shadow: 2px 2px rgb(63, 63, 63);
     text-align: left;
     position: relative;
     top: 3rem;
@@ -402,7 +415,9 @@ form>button {
 
 .p_Section span {
     font-size: 2rem;
-    margin: 0px;
+    margin: 0px; 
+    color: var(--tGreen);
+    text-shadow: none; 
 }
 
 /* p-Product List */
