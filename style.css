@@ -124,12 +124,13 @@ button:hover {
 /* Main Section */
 .m_Section {
     /* height: 80vh; */
-    background-image: url(./assets/Smiling-Surgeon.jpg);
+    /* background-image: url(./assets/Smiling-Surgeon11.jpg); */
     /* background: linear-gradient(0deg, rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/Smiling-Surgeon.jpg); */
-    background-size: cover;
     background-color: #99c5ff;
-    background-blend-mode: multiply;
-    color: var(--section-bg);
+    /* background-blend-mode: multiply; */
+    background-size: cover;
+    background-image: url(./assets/Smiling-Surgeon-face.jpg);
+    color: var(--textColorLight);
 }
 
 .m_Section {
@@ -143,10 +144,13 @@ button:hover {
     width: 800px;
     font-size: 2.5rem;
     text-align: center;
+    padding: 4rem;
+    position: relative;
+    top: 1.5rem;
 }
 
 .m_Section h4 {
-    margin-top: 15px;
+    margin-top: 5px;
     font-weight: 400;
     font-size: 2rem;
 }
