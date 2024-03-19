@@ -278,7 +278,7 @@ footer iframe {
 .aboutSec {
     display: flex;
     flex-direction: row;
-    background-color: var(--section-bg);
+    background-color: var(--section-bg); 
 }
 
 .aboutSec>div {
@@ -304,6 +304,14 @@ footer iframe {
 /* Premarajan */
 .premrajan {
     background-color: var(--textColorLight);
+}
+.premrajan >div:nth-last-child(1){
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+.premrajan img{
+    max-width:300px;
 }
 
 .db {
