@@ -1,7 +1,6 @@
 @import url(style.css);
 
-
-/* and (max-width: 767px) */
+ 
 @media (max-width: 480px) {
 
     /* Every Section Code */
@@ -21,8 +20,7 @@
 
     .scro {
         overflow: auto;
-        width: 100vw;
-        /* width: 375px; */
+        width: 100vw; 
     }
 
     .scro p {
@@ -241,7 +239,6 @@
     .p_Section {
         height: 50vh;
         background-image: url(./assets/products-disposabale.jpg);
-        /* background: linear-gradient(0deg,    rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp); */
         background-size: cover;
         background-position: 0px;
         display: flex;
@@ -262,7 +259,6 @@
     .p-card {
         width: 100%;
         padding: 1rem;
-        /* border: 1px solid var(--tGreen); */
         border-radius: 0.5rem;
         margin-bottom: 1rem;
         background-color: var(--section-bg);
@@ -279,8 +275,7 @@
 
     /* premrajan */
     .premrajan {
-        display: flex;
-        /* flex-direction: ; */
+        display: flex; 
         flex-direction: column-reverse;
     }
 
@@ -301,8 +296,7 @@
     .jkl {
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        /* overflow: auto; */
+        justify-content: left; 
     }
 
     .cardBg {
@@ -321,8 +315,7 @@
 
     }
 
-    .card-body {
-        /* display: none; */
+    .card-body { 
         height: auto;
         background-color: var(--tGreen);
         color: var(--textColorLight);
@@ -332,7 +325,7 @@
 }
 
 @media (min-width: 480px) and (max-width: 767px) {
-    /* @media (min-width: 480px)  { */
+  
 
     /* Every Section Code */
     p {
@@ -351,8 +344,7 @@
 
     .scro {
         overflow: auto;
-        width: 100vw;
-        /* width: 375px; */
+        width: 100vw; 
     }
 
     .scro p {
@@ -558,8 +550,7 @@
 
     .p-card {
         width: 100%;
-        padding: 1rem;
-        /* border: 1px solid var(--tGreen); */
+        padding: 1rem; 
         border-radius: 0.5rem;
         margin-bottom: 1rem;
         background-color: var(--section-bg);
@@ -576,8 +567,7 @@
 
     /* premrajan */
     .premrajan {
-        display: flex;
-        /* flex-direction: ; */
+        display: flex; 
         flex-direction: column-reverse;
     }
 
@@ -598,8 +588,7 @@
     .jkl {
         display: flex;
         flex-direction: row;
-        justify-content: left;
-        /* overflow: auto; */
+        justify-content: left; 
     }
 
     .cardBg {
@@ -618,8 +607,7 @@
 
     }
 
-    .card-body {
-        /* display: none; */
+    .card-body { 
         height: auto;
         background-color: var(--tGreen);
         color: var(--textColorLight);
