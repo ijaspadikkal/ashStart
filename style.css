@@ -18,6 +18,11 @@
 
 }
 
+/* var */
+.txt-color-green{
+    color: var(--tGreen); 
+}
+
 body {
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -397,10 +402,10 @@ form>button {
 /* Product */
 .p_Section {
     height: 50vh;
-    background-image: url(./assets/products-disposabale.jpg);
-    /* background: linear-gradient(0deg,    rgba(61, 94, 9, 0.3), rgba(3, 134, 20, 0.3)), url(./assets/surgi_bg.webp); */
+    background-image: url(./assets/products-disposabale.jpg); 
+    background: linear-gradient(0deg,    rgba(119, 162, 227, 0.3), rgba(3, 108, 134, 0.3)), url(./assets/products-disposabale.jpg);
     background-size: cover;
-    background-position: 12px;
+    background-position: 0px;
     display: flex;
     align-items: end;
     justify-content: center;
