@@ -17,15 +17,9 @@ function hideMenu() {
 }
 
 
-function redirectToWhatsApp() {
-    // Phone number to redirect to (with country code)
-    var phoneNumber = "919745553598";
-    // Message to send (optional)
-    var message = "Hello, I am interested to purchase products";
-
-    // Construct the WhatsApp URL
-    var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message);
-
-    // Redirect to WhatsApp
+function redirectToWhatsApp() { 
+    var phoneNumber = "919745553598"; 
+    var message = "Hello, I am interested to purchase products"; 
+    var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message); 
     window.location.href = whatsappURL;
 }
