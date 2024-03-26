@@ -18,7 +18,7 @@ function hideMenu() {
 
 
 function redirectToWhatsApp() { 
-    var phoneNumber = "919745553598"; 
+    var phoneNumber = "919496875897"; 
     var message = "Hello, I am interested to purchase products"; 
     var whatsappURL = "https://wa.me/" + phoneNumber + "?text=" + encodeURIComponent(message); 
     window.location.href = whatsappURL;
