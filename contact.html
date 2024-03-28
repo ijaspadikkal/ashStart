@@ -60,15 +60,53 @@
             <img src="./assets/contact.jpg" alt="Contact Image">
         </div>
         <div class="form-sec">
-            <form action="https://script.google.com/macros/s/AKfycbx877y8iZZexhz9v-n0mr0RNjIKD4dZwDF_CiV3IQSznYPDEGMUe4Uq8YiTMGAkR9rn/exec" method="POST">
+            <form id="dataForm">
                 <input type="text" name="Name" placeholder="Name">
                 <input type="text" name="Phone Number" placeholder="Number">
                 <input type="email" name="Email" placeholder="Email">
-                <textarea name="Message" id="" cols="0" rows="10" placeholder="Place your text here"></textarea>
+                <textarea name="Message" id="Message" cols="30" rows="10" placeholder="Place your text here"></textarea>
                 <button type="submit">Send Message</button>
             </form>
+
+            <script>
+                document.getElementById("dataForm").addEventListener("submit", function (event) {
+                    event.preventDefault(); // Prevent default form submission
+
+                    // Get form data
+                    var formData = new FormData(this);
+
+                    // Call function to submit data to Google Sheets
+                    submitToGoogleSheet(formData);
+                });
+
+                function submitToGoogleSheet(formData) {
+                    // Replace the URL with your Google Apps Script web app URL
+                    var url = 'https://script.google.com/macros/s/AKfycbx877y8iZZexhz9v-n0mr0RNjIKD4dZwDF_CiV3IQSznYPDEGMUe4Uq8YiTMGAkR9rn/exec';
+
+                    // Send form data to Google Sheets
+                    fetch(url, {
+                        method: 'POST',
+                        body: formData
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                alert('Data submitted successfully');
+                                // Optionally, clear the form after successful submission
+                                document.getElementById("dataForm").reset();
+
+                            } else {
+                                alert('Failed to submit data, Submit again');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert('An error occurred while submitting the form.Refresh the page');
+                            location.reload();
+                        });
+                }
+            </script>
         </div>
-    </section> 
+    </section>
 
     <!-- Footer Section -->
     <footer class="subMainSection footerBg">
