@@ -3,9 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <meta name="description" content="Authorized dealer of surgical disposable items in Calicut. We offer high-quality products tailored to meet your healthcare needs.">
-    <meta name="keywords" content="disposable surgical equipment, disposable surgical supplies, disposable surgical suppliers, disposable surgical items, disposable medical supplies">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Authorized dealer of surgical disposable items in Calicut. We offer high-quality products tailored to meet your healthcare needs.">
+    <meta name="keywords"
+        content="disposable surgical equipment, disposable surgical supplies, disposable surgical suppliers, disposable surgical items, disposable medical supplies">
     <meta name="author" content="Aparna Healthcare Solutions LLP">
     <title>Aparna Surgical | Kerala Best Disposable Surgical Equipment Distributor</title>
     <!-- Our Style -->
@@ -187,9 +189,44 @@
         <img src="./assets/mail.png" alt="email subscription image">
         <div class="mailInput">
             <span>Submit Your Email; Get News Alerts from us</span>
-            <input type="email" placeholder="Email Address" class="Subscribe-input">
-            <br>
-            <button>Subscribe</button>
+
+            <form id="dataForm_one">
+                <input name="Email" type="email" placeholder="Email Address" class="Subscribe-input" required>
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <script>
+                document.getElementById("dataForm_one").addEventListener("submit", function (event) {
+                    event.preventDefault(); 
+ 
+                    var formData = new FormData(this);
+ 
+                    submitToGoogleSheet(formData);
+                });
+
+                function submitToGoogleSheet(formData) { 
+                    var url = ' https://script.google.com/macros/s/AKfycby1VX7ELEc10BHOrA5HulNwoYlbIcgLDF9Dm2hWRGkfeKcZFVuGiBPJM1XTkdnzKH0UCA/exec';
+ 
+                    fetch(url, {
+                        method: 'POST',
+                        body: formData
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                alert('Email submitted successfully'); 
+                                document.getElementById("dataForm_one").reset();
+
+                            } else {
+                                alert('Failed to submit email, Submit again');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error:', error);
+                            alert('An error occurred while submitting the email.Refresh the page');
+                            location.reload();
+                        });
+                }
+            </script>
         </div>
     </section>
 
