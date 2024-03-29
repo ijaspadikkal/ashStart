@@ -134,7 +134,7 @@ button:hover {
 .m_Section { 
     background-color: #99c5ff; 
     background-size: cover;
-    background-image: url(./assets/Smiling-Surgeon-face.jpg);
+    background-image: url(./assets/Smiling-Surgeon-face.webp);
     color: var(--textColorLight);
 }
 
@@ -390,8 +390,8 @@ form>button {
 /* Product */
 .p_Section {
     height: 50vh;
-    background-image: url(./assets/products-disposabale.jpg); 
-    background: linear-gradient(0deg,    rgba(119, 162, 227, 0.3), rgba(3, 108, 134, 0.3)), url(./assets/products-disposabale.jpg);
+    background-image: url(./assets/products-disposabale.webp); 
+    background: linear-gradient(0deg,    rgba(119, 162, 227, 0.3), rgba(3, 108, 134, 0.3)), url(./assets/products-disposabale.webp);
     background-size: cover;
     background-position: 0px;
     display: flex;

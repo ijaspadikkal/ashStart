@@ -8,11 +8,11 @@ image quality
 Find Cookies 
 screen size besed navbar close and open //
 logo position stick //
-clar titile and link all page 
+clar titile and link all page //
 automatic heding and content size decressing //
 sticky menubar //
-footer menu link align in mobile left 
+footer menu link align in mobile left //
 re write to responsive code 
-reset color
+reset color //
 optimaize image
  
